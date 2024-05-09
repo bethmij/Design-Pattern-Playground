@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Design-Pattern-Playground.iml" filepath="$PROJECT_DIR$/Design-Pattern-Playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creational/factory/factory.iml" filepath="$PROJECT_DIR$/creational/factory/factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creational/singleton/singleton.iml" filepath="$PROJECT_DIR$/creational/singleton/singleton.iml" />
     </modules>
   </component>
 </project>
