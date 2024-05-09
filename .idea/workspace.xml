@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aec5508-8f29-4d86-9106-5bc242fe6881" name="Changes" comment="implement decorator">
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/OperationAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/OperationSubtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/StrategyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/decorator/ShapeDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decorator/ShapeDecorator.class" afterDir="false" />
+    <list default="true" id="8aec5508-8f29-4d86-9106-5bc242fe6881" name="Changes" comment="implement strategy">
+      <change afterPath="$PROJECT_DIR$/behavioral/observer/BinaryObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/observer/HexaObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/observer/ObserverDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/observer/observer.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +32,26 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2gDNXbwGWnvI07kMiRyc2Z4mI0Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.DecoratorDemo.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.StrategyDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/bethmij/e6e5b486-6d96-406a-9def-132561b62dfc/IJSE/Working Projects/Design-Pattern-Playground/behavioral/strategy",
+    "last_opened_file_path": "/media/bethmij/e6e5b486-6d96-406a-9def-132561b62dfc/IJSE/Working Projects/Design-Pattern-Playground/behavioral/observer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrategyDemo">
+  <component name="RunManager" selected="Application.ObserverDemo">
     <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecoratorDemo" />
       <module name="decorator" />
@@ -84,6 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ObserverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObserverDemo" />
+      <module name="observer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrategyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StrategyDemo" />
       <module name="strategy" />
@@ -93,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverDemo" />
         <item itemvalue="Application.StrategyDemo" />
         <item itemvalue="Application.DecoratorDemo" />
         <item itemvalue="Application.Main" />
@@ -107,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715228229132</updated>
-      <workItem from="1715228230118" duration="7442000" />
+      <workItem from="1715228230118" duration="9064000" />
     </task>
     <task id="LOCAL-00001" summary="initial comment">
       <option name="closed" value="true" />
@@ -253,18 +264,52 @@
       <option name="project" value="LOCAL" />
       <updated>1715234100236</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="implement strategy">
+      <option name="closed" value="true" />
+      <created>1715235918459</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715235918459</updated>
+    </task>
+    <task id="LOCAL-00020" summary="implement strategy">
+      <option name="closed" value="true" />
+      <created>1715236041365</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236041365</updated>
+    </task>
+    <task id="LOCAL-00021" summary="implement strategy">
+      <option name="closed" value="true" />
+      <created>1715236072591</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236072591</updated>
+    </task>
+    <task id="LOCAL-00022" summary="implement strategy">
+      <option name="closed" value="true" />
+      <created>1715236082845</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236082845</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial comment" />
     <MESSAGE value="implement singleton" />
     <MESSAGE value="implement facade" />
     <MESSAGE value="implement factory" />
     <MESSAGE value="implement decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement decorator" />
+    <MESSAGE value="implement strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement strategy" />
   </component>
 </project>
