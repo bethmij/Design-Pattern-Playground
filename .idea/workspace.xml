@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aec5508-8f29-4d86-9106-5bc242fe6881" name="Changes" comment="implement singleton">
-      <change afterPath="$PROJECT_DIR$/creational/factory/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/factory/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/factory/ClassZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creational/factory/Main.java" afterDir="false" />
+    <list default="true" id="8aec5508-8f29-4d86-9106-5bc242fe6881" name="Changes" comment="implement factory">
+      <change beforePath="$PROJECT_DIR$/creational/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/factory/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715228229132</updated>
-      <workItem from="1715228230118" duration="1256000" />
+      <workItem from="1715228230118" duration="1962000" />
     </task>
     <task id="LOCAL-00001" summary="initial comment">
       <option name="closed" value="true" />
@@ -109,7 +105,47 @@
       <option name="project" value="LOCAL" />
       <updated>1715228841338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implement singleton">
+      <option name="closed" value="true" />
+      <created>1715229576545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715229576545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implement factory">
+      <option name="closed" value="true" />
+      <created>1715229664847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715229664847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implement factory">
+      <option name="closed" value="true" />
+      <created>1715229674775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715229674775</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implement factory">
+      <option name="closed" value="true" />
+      <created>1715229683566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715229683566</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implement factory">
+      <option name="closed" value="true" />
+      <created>1715229693148</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715229693148</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial comment" />
     <MESSAGE value="implement singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement singleton" />
+    <MESSAGE value="implement factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement factory" />
   </component>
 </project>
