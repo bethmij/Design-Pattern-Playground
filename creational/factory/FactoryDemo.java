@@ -1,4 +1,4 @@
-public class Factory {
+public class FactoryDemo {
     public static ClassZ getClasses(String type){
         if (type.equals("A")){
             return new ClassA();
