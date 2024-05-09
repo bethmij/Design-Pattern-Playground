@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/structural/decorator/decorator.iml" filepath="$PROJECT_DIR$/structural/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/structural/facade/facade.iml" filepath="$PROJECT_DIR$/structural/facade/facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational/factory/factory.iml" filepath="$PROJECT_DIR$/creational/factory/factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavioral/observer/observer.iml" filepath="$PROJECT_DIR$/behavioral/observer/observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational/singleton/singleton.iml" filepath="$PROJECT_DIR$/creational/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavioral/strategy/strategy.iml" filepath="$PROJECT_DIR$/behavioral/strategy/strategy.iml" />
     </modules>
   </component>
 </project>
