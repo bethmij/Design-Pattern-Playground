@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aec5508-8f29-4d86-9106-5bc242fe6881" name="Changes" comment="implement factory">
-      <change beforePath="$PROJECT_DIR$/creational/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/factory/Main.java" afterDir="false" />
+    <list default="true" id="8aec5508-8f29-4d86-9106-5bc242fe6881" name="Changes" comment="implement facade">
+      <change afterPath="$PROJECT_DIR$/structural/decorator/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/decorator/DecoratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/decorator/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/decorator/RedShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/decorator/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/decorator/ShapeDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +45,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/bethmij/e6e5b486-6d96-406a-9def-132561b62dfc/IJSE/Working Projects/Design-Pattern-Playground/creational/factory",
+    "last_opened_file_path": "/media/bethmij/e6e5b486-6d96-406a-9def-132561b62dfc/IJSE/Working Projects/Design-Pattern-Playground/structural/decorator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,11 +59,21 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/structural/facade" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DecoratorDemo">
+    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecoratorDemo" />
+      <module name="decorator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="factory" />
@@ -67,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorDemo" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -79,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715228229132</updated>
-      <workItem from="1715228230118" duration="1962000" />
+      <workItem from="1715228230118" duration="5524000" />
     </task>
     <task id="LOCAL-00001" summary="initial comment">
       <option name="closed" value="true" />
@@ -145,7 +162,39 @@
       <option name="project" value="LOCAL" />
       <updated>1715229693148</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implement factory">
+      <option name="closed" value="true" />
+      <created>1715231679372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715231679373</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implement facade">
+      <option name="closed" value="true" />
+      <created>1715231724836</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715231724836</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implement facade">
+      <option name="closed" value="true" />
+      <created>1715231735630</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715231735630</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implement facade">
+      <option name="closed" value="true" />
+      <created>1715231747751</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715231747751</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +204,7 @@
     <MESSAGE value="initial comment" />
     <MESSAGE value="implement singleton" />
     <MESSAGE value="implement factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement factory" />
+    <MESSAGE value="implement facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement facade" />
   </component>
 </project>
